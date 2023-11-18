@@ -1,4 +1,5 @@
 import Footer from './components/Footer';
+import Header from './components/Navbar';
 import './index.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-
+<Header/>
 <Footer/>
     </>
   )
