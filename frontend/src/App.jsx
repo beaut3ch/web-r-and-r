@@ -1,5 +1,6 @@
 import Footer from './components/Footer';
 import Header from './components/Navbar';
+import Layout from './components/Layout';
 import './index.css';
 
 function App() {
@@ -7,8 +8,10 @@ function App() {
 
   return (
     <>
-<Header/>
-<Footer/>
+  <Layout/>
+
+{/* <Header/>
+<Footer/> */}
     </>
   )
 }
